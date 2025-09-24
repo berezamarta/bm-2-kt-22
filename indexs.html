@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git - Системи контролю версій</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+            color: #1f2937;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #0d6efd;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        code {
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+
+        .certificate {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .certificate img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f3f5;
+            font-size: 0.9em;
+            color: #495057;
+        }
+
+        a {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Система контролю версій Git</h1>
+    </header>
+
+    <main>
+        <!-- Коротка інформація -->
+        <section>
+            <h2>Що таке системи контролю версій та Git?</h2>
+            <p>Системи контролю версій (Version Control Systems, VCS) дозволяють відстежувати зміни у коді або документах, співпрацювати над проектами та відновлювати попередні версії файлів. <strong>Git</strong> — це популярна розподілена система контролю версій, створена Лінусом Торвальдсом у 2005 році для керування розробкою ядра Linux.</p>
+        </section>
+
+        <!-- Основні можливості та переваги Git -->
+        <section>
+            <h2>Основні можливості та переваги Git</h2>
+            <ul>
+                <li>Розподілена структура: кожен розробник має повну копію репозиторію.</li>
+                <li>Висока швидкість роботи та ефективне відстеження змін.</li>
+                <li>Підтримка гілок (branch) та об'єднання (merge) без втрати даних.</li>
+                <li>Історія змін дозволяє легко відновити попередні версії.</li>
+                <li>Широке співтовариство та інтеграція з GitHub, GitLab, Bitbucket.</li>
+            </ul>
+        </section>
+
+        <!-- 10 базових команд Git -->
+        <section>
+            <h2>10 базових команд Git з коментарями</h2>
+            <ul>
+                <li><code>git init</code> — створити новий репозиторій.</li>
+                <li><code>git clone [url]</code> — скопіювати існуючий репозиторій.</li>
+                <li><code>git status</code> — перевірити стан файлів у репозиторії.</li>
+                <li><code>git add [файл]</code> — додати файл для наступного коміту.</li>
+                <li><code>git commit -m "повідомлення"</code> — зафіксувати зміни з коментарем.</li>
+                <li><code>git push</code> — відправити зміни на віддалений репозиторій.</li>
+                <li><code>git pull</code> — отримати оновлення з віддаленого репозиторію.</li>
+                <li><code>git branch</code> — переглянути або створити гілки.</li>
+                <li><code>git merge [гілка]</code> — об'єднати гілку з поточною.</li>
+                <li><code>git log</code> — переглянути історію комітів.</li>
+            </ul>
+        </section>
+
+        <!-- Сертифікат курсу -->
+        <section class="certificate">
+            <h2>Сертифікат курсу по Git</h2>
+            <img src="git.jpg" alt="Сертифікат Git">
+        </section>
+
+        <!-- Джерела інформації -->
+        <section>
+            <h2>Джерела інформації</h2>
+            <ul>
+                <li><a href="https://git-scm.com/" target="_blank">Офіційний сайт Git</a></li>
+                <li><a href="https://www.atlassian.com/git" target="_blank">Atlassian Git Tutorials</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-git" target="_blank">Codecademy Git Course</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Береза Марта. Всі права захищено.
+    </footer>
+</body>
+</html>
